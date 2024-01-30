@@ -1,0 +1,19 @@
+.countdown {
+    &__item {
+        .count {
+            width: 8rem;
+            height: 8rem;
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 52%;
+                height: 2px;
+                background-color: $black;
+            }
+        }
+    }
+}
